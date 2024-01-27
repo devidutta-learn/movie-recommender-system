@@ -3,16 +3,6 @@
 
 This repository contains the code and data for building a movie recommender system that uses content based filtering to suggest movies to users based on their preferences.
 
-## Content Based Filtering
-Content based filtering is a technique that uses the features of the items (such as genre, actors, director, etc.) to find the similarity between them and recommend the most similar items to the user. For example, if a user likes a movie that is a comedy and has Will Smith as an actor, the system will recommend other movies that are comedies and have Will Smith as an actor.
-
-## Cosine Similarity
-Cosine similarity is a measure of how similar two vectors are by calculating the cosine of the angle between them. It ranges from -1 to 1, where -1 means completely opposite, 0 means orthogonal (no similarity), and 1 means identical. Cosine similarity is used to compare the feature vectors of the movies and find the most similar ones to the user’s preference.
-
-## Dataset
-The dataset used for this project is the **TMDB 5000 Movie Dataset**, Metadata on ~5,000 movies from TMDb The dataset also includes movie metadata such as title, genres, release year, etc.
-
-
 ## Technology
 
 ### Machine Learning
@@ -30,13 +20,19 @@ The dataset used for this project is the **TMDB 5000 Movie Dataset**, Metadata o
 <a href="https://colab.research.google.com" target="_blank" rel="noreferrer"> <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="colab" width="40" height="40"/> </a>
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
 <a href="https://kaggle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kaggle/kaggle-original-wordmark.svg" alt="kaggle" height="50"/> </a> 
-## Code
-The code for this project is written in Python and uses the following libraries:
 
-pandas: for data manipulation and analysis
-numpy: for numerical computation and linear algebra
-sklearn: for machine learning and data preprocessing
-nltk: for natural language processing and text analysis
+## Content Based Filtering
+Content based filtering is a technique that uses the features of the items (such as genre, actors, director, etc.) to find the similarity between them and recommend the most similar items to the user. For example, if a user likes a movie that is a comedy and has Will Smith as an actor, the system will recommend other movies that are comedies and have Will Smith as an actor.
+
+## Cosine Similarity
+Cosine similarity is a measure of how similar two vectors are by calculating the cosine of the angle between them. It ranges from -1 to 1, where -1 means completely opposite, 0 means orthogonal (no similarity), and 1 means identical. Cosine similarity is used to compare the feature vectors of the movies and find the most similar ones to the user’s preference.
+
+## Dataset
+The dataset used for this project is the **TMDB 5000 Movie Dataset**, Metadata on ~5,000 movies from TMDb The dataset also includes movie metadata such as title, genres, release year, etc.
+
+
+
+## Code
 The code consists of the following steps:
 
 Loading and exploring the dataset
