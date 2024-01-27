@@ -1,7 +1,10 @@
 # movie-recommender-system
-[https://movie-recommender-system-devidutta.streamlit.app/](https://movie-recommender-system-devidutta.streamlit.app/)
+
+### [https://movie-recommender-system-devidutta.streamlit.app/](https://movie-recommender-system-devidutta.streamlit.app/)
 
 This repository contains the code and data for building a movie recommender system that uses content based filtering to suggest movies to users based on their preferences.
+
+<img src="FireShot Capture 222 - Streamlit - movie-recommender-system-devidutta.streamlit.app.png">
 
 ## Technology
 
