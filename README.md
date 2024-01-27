@@ -35,10 +35,10 @@ The dataset used for this project is the **TMDB 5000 Movie Dataset**, Metadata o
 ## Code
 The code consists of the following steps:
 
-Loading and exploring the dataset
-Preprocessing the data and creating feature vectors for the movies
-Computing the cosine similarity matrix for the movies
-Defining a function to generate recommendations for a given movie title
+Loading and exploring the dataset. 
+Preprocessing the data and creating feature vectors for the movies.
+Computing the cosine similarity matrix for the movies.
+Defining a function to generate recommendations for a given movie title. 
 Testing the system with some examples
 
 ## Results
